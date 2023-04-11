@@ -21,7 +21,7 @@ const Home = () => {
           <br />
               - Wrap your bottle in something and cut the top foil away (to keep it anonymous OF COURSE). The cork may be labeled but we’ll just try to ignore that.
               <br />
-              - Fill out <a href="https://example.com/doc" className={styles.hyperlink}>this doc</a>
+              - Fill out <a href="https://forms.gle/PrSxN2bUELBsvcaM8" className={styles.hyperlink}>this doc</a>
           <br />
           <br />
           The setup:
