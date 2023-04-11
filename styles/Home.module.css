@@ -1,114 +1,35 @@
 .container {
-  position: relative;
-  min-height: 100vh;
-  background-color: rgba(9, 14, 39, 255);
-}
-
-.main {
-  position: relative;
-  z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  background-image: url('/wine-tasting.jpeg');
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.blackBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0% 5% 5% 5%;
+  width: 90%;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .title {
-  color: #ffffff;
-  font-size: 2rem;
-  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
-.logo {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%; /* Adjust the width as needed */
-  height: 30%;
+.description {
+  color: orange;
+  font-size: 1.2rem;
+  white-space: pre-wrap;
 }
 
-.hamburgerMenu {
-  position: absolute;
-  top: 5%;
-  right: 5%;
-}
-
-.hamburgerIcon {
-  width: 30px;
-  height: 3px;
-  background-color: #fff8d4;
-  margin-bottom: 5px;
-  position: relative;
-}
-
-.hamburgerIcon::after,
-.hamburgerIcon::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff8d4;
-}
-
-.hamburgerIcon::before {
-  top: -10px;
-}
-
-.hamburgerIcon::after {
-  top: 10px;
-}
-
-.menuList {
-  display: none;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 200px;
-}
-
-.menuItem {
-  padding: 10px 20px;
-  color: #fff8d4;
-  font-size: 16px;
-}
-
-.visible {
-  display: block;
-}
-
-.rsvpButton {
-  position: absolute;
-  top: 43%;
-  left: 13%;
-  border: 2px solid #fff8d4;
-  background-color: rgba(9, 14, 39, 255);
-  color: #fff8d4;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.eventDate {
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%; /* Adjust the width as needed */
-  max-width: 60%;
-  /* height: 30%; */
-}
-
-@media only screen and (min-width: 444px) {
-  .logo {
-    max-width: 40%;
-  }
-  .eventDate {
-    max-width: 40%;
-  }
+.hyperlink {
+  color: yellow;
+  text-decoration: underline;
 }
